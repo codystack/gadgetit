@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from www.monapay.com/v1/merchant/reviewtransaction/MLY5b0c1ec7192e3_5ddfed835253e---- by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Nov 2019 15:54:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=16" />
+
+        <!--Import Google Icon Font-->
+        <link href="../../../css/materialicon.css" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="../../../materialize-0.98.1/css/materialize.min.css">
+        <link rel="stylesheet" href="../../../css/pincode-input.css">
+
+        <!--Import app.css-->
+        <link rel="stylesheet" href="../../../css/mona-app.css">
+        
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../images/mona/Monapay_favicon.png">
+        <link rel="icon" type="image/png" href="../../../images/mona/Monapay_favicon.png" sizes="32x32">
+
+        <title>MonaPay : MLY5b0c1ec7192e3_5ddfed835253e</title>
+    </head>
+    <body>
+                <div class="green white-text center-align strong environment-bar">Live Mode</div>
+                <div class="alert alert-danger flash red white-text center-align block">Invalid phone number, please try again later.</div>
+        <div class="container">
+            <div class="row" style="margin:0;">
+                <div class="col s12 m3">&nbsp;</div>
+                <div class="col s12 m6">
+                                        <form action="https://www.monapay.com/v1/merchant/reviewtransaction/MLY5b0c1ec7192e3_5ddfed835253e" method="post">
+                        <div class="card transparent z-depth-0 center center-block">
+                            <div class="card-content grey-text text-darken-1">
+                                <div class="card-title">
+                                    <img src="../../../images/mona/applogo.png" class="app-logo" />
+                                </div>
+                                <small class="title-slogan">mobile payment simplified</small>
+                                                                <br>
+                                                                    <div class="center">
+                                        <img src="../../../images/mona/ic_cancel_black_24dp.png" class="img-responsive" />
+                                    </div>
+                                    <h5 class="strong">Cancelled by the user</h5>
+                                                                    <div class="input-field center">
+                                        <br>
+                                                                                <a type="button" class="button colored-button" href="../../../marketplace/download/response/5b0c1ec7192e3.html?reference_id=MLY5b0c1ec7192e3_5ddfed835253e&amp;successful=0&amp;condition=Cancelled+by+the+user">Continue</a>
+                                        <script>
+                                            setTimeout(function(){
+                                               location = "../../../marketplace/download/response/5b0c1ec7192e3.html?reference_id=MLY5b0c1ec7192e3_5ddfed835253e&amp;successful=0&amp;condition=Cancelled+by+the+user";
+                                            }, 3000);
+                                        </script>
+                                                                                <br>
+                                    </div>
+                                                                                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col s12 m3">&nbsp;</div>
+            </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="recharge-confirmation-modal" class="modal confirmation">
+            <div class="modal-content">
+                <h4>Confirmation</h4>
+                <p>Are you sure you want to process to the funding?</p>
+            </div>
+            <div class="modal-footer">
+                <a class="purple-border-button modal-close waves-effect waves-green btn-flat">No</a>
+                <a id="fund-confirmer" class="purple-button modal-close modal-action waves-effect waves-green btn-flat">Yes</a>
+            </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="cancel-transaction-modal" class="modal confirmation">
+            <div class="modal-content">
+                <h4>Confirmation</h4>
+                <p>Are you sure you want to <b>CANCEL</b> this transaction?</p>
+            </div>
+            <div class="modal-footer">
+                <a class="purple-border-button modal-close waves-effect waves-green btn-flat">No</a>
+                <a id="cancel-confirmer" class="purple-button modal-close modal-action waves-effect waves-green btn-flat">Yes</a>
+            </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="reset-password-modal" class="modal confirmation">
+            <div class="modal-content">
+                <h4>Confirmation</h4>
+                <p>Are you sure you want to <b>RESET</b> your pin? Please enter your phone number and click CONTINUE.</p>
+                <div class="row" style="min-height: 200px">
+                    <div class="input-field col m6 s12" style="max-width:none">
+                        <select name="network_provider2" id="network-reset-password">
+                            <option value="" disabled selected>Choose your network</option>
+                            <option value="mtn">MTN</option>
+                            <option value="9mobile">9Mobile</option>
+                            <option value="airtel">Airtel</option>
+                            <option value="glo">Globacom</option>
+                        </select>
+                    </div>
+                    <div class="input-field col l6 s12" style="max-width:none">
+                        <input placeholder="08012345678" id="phoneNumberField" type="number" class="validate" style="max-width:none">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="purple-border-button modal-close waves-effect waves-green btn-flat">CANCEL</a>
+                <a id="reset-password-confirmer" class="red white-text modal-close modal-action waves-effect waves-green btn-flat">CONTINUE</a>
+            </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="reset-provider-modal" class="modal confirmation">
+            <div class="modal-content">
+                <h4>Confirmation</h4>
+                <p>Are you sure you want to <b>CHANGE</b> your network provider? Please choose appropriate provider and click CONTINUE.</p>
+                <div class="row" style="min-height: 150px">
+                    <div class="input-field col m6 s12" style="max-width:none">
+                        <select name="network_provider2" id="network-reset-provider">
+                            <option value="" disabled selected>Choose your network</option>
+                                                                                    <option value="9mobile">9Mobile</option>                            <option value="airtel">Airtel</option>                            <option value="glo">Globacom</option>                                                    </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="purple-border-button modal-close waves-effect waves-green btn-flat">CANCEL</a>
+                <a id="reset-provider-confirmer" class="purple-button white-text modal-close modal-action waves-effect waves-green btn-flat">AGREE</a>
+            </div>
+        </div>
+        <script src="../../../jquery/jquery-3.2.1.js"></script>
+        <script src="../../../materialize-0.98.1/js/materialize.min.js"></script>
+        <script src="../../../jquery/pincode-input.js"></script>
+        <script type="text/javascript">
+            var paymentUrl = "";
+            var cancelUrl = "MLY5b0c1ec7192e3_5ddfed835253e----.html";
+            var resetPasswordUrl = "../resetpassword/MLY5b0c1ec7192e3_5ddfed835253e/index.html";
+            var paymentAmount = 0;
+            var userPhoneNumber = "";
+            var userPhoneNetwork = "";
+            jQuery(document).ready(function(){
+                jQuery('select').material_select();
+                /*
+                if(jQuery('#refreshLoader').length){
+                    var iter = 25;
+                    var cIter = iter;
+                    var refreshIntervalId = setInterval(function(){
+                        if(cIter){
+                            jQuery('#refreshLoader').css('width', parseInt((cIter/iter)*100)+'%');
+                            cIter--;
+                        } else {
+                            clearInterval(refreshIntervalId);
+                            location.reload();
+                        }
+                    }, 1000);
+                }
+                */
+
+                jQuery('.pininput').pincodeInput({hidedigits:true, inputs:4, complete:function(value, e, errorElement){
+                    console.log(value);
+                }, keydown : function (e) {
+                    // Allow: backspace, delete, tab, escape, enter and .
+                    if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+                         // Allow: Ctrl+A, Command+A
+                        (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) || 
+                         // Allow: home, end, left, right, down, up
+                        (e.keyCode >= 35 && e.keyCode <= 40)) {
+                             // let it happen, don't do anything
+                             return;
+                    }
+                    // Ensure that it is a number and stop the keypress
+                    if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                        e.preventDefault();
+                    }
+                }});
+            
+                setTimeout(function(){
+                    jQuery('.alert.flash,.quick-message').fadeOut();
+                }, 10000);
+                
+                
+                jQuery('.modal.confirmation').modal({
+                    dismissible: true, // Modal can be dismissed by clicking outside of the modal
+                    opacity: .5, // Opacity of modal background
+                    inDuration: 300, // Transition in duration
+                    outDuration: 200, // Transition out duration
+                    startingTop: '4%', // Starting top style attribute
+                    endingTop: '10%', // Ending top style attribute
+                    ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+                      //console.log(modal, trigger);
+                    },
+                    complete: function() {// Callback for Modal close
+                        
+                    } 
+                  }
+                );
+        
+                jQuery(".recharge-btn").on("click", function(e){
+                    e.preventDefault();
+                    paymentUrl = jQuery(e.target).prop("href");
+                    paymentAmount = jQuery(e.target).attr("data-amount-text");
+                    jQuery("#recharge-confirmation-modal .modal-content p").html('Are you sure you want to fund your wallet with <b>' + paymentAmount + '</b> from your <b>' + userPhoneNetwork + '</b> airtime on <b>' + userPhoneNumber + '</b>?');
+                    jQuery("#recharge-confirmation-modal").modal("open");
+                });
+                
+                jQuery("#fund-confirmer.modal-action").on("click", function(e){
+                    jQuery('.modal.confirmation').modal("close");
+                    if(paymentUrl){
+                        //showLoader();
+                        window.location = paymentUrl;
+                    }
+                });
+                
+                jQuery("#cancel-confirmer.modal-action").on("click", function(e){
+                    jQuery('.modal.confirmation').modal("close");
+                    if(cancelUrl){
+                        //showLoader();
+                        window.location = cancelUrl;
+                    }
+                });
+                
+                
+                jQuery("#reset-password-confirmer.modal-action").on("click", function(e){
+                    e.preventDefault();
+                    var selectedNetwork = $( "#network-reset-password" ).val();
+                    
+                    var phoneNumber = jQuery("#phoneNumberField").val();
+                    phoneNumber.replace(/[^0-9]/g, '');
+
+                    if(!phoneNumber || phoneNumber.length < 10 || phoneNumber.length > 13){
+                        Materialize.toast("Invalid phone number. Please enter a valid phone number and continue.", 5000)
+                         return false;
+                    }
+                    jQuery('.modal.confirmation').modal("close");
+                    
+                    if(resetPasswordUrl){
+                        //showLoader();
+                        console.log(resetPasswordUrl + phoneNumber + "/" + ((selectedNetwork)? selectedNetwork : ''));
+                        window.location = resetPasswordUrl + phoneNumber + "/" + ((selectedNetwork)? selectedNetwork : '');
+                    }
+                });
+
+                jQuery("#reset-provider-confirmer.modal-action").on("click", function(e){
+                    e.preventDefault();
+                    var selectedNetwork = $( "#network-reset-provider" ).val();
+                    if(selectedNetwork && userPhoneNumber){
+                        jQuery('.modal.confirmation').modal("close");
+                        var resetProviderUrl = '/' + 'v1/merchant/reviewtransaction/MLY5b0c1ec7192e3_5ddfed835253e-resetprovider-' + selectedNetwork + '-1574956467-eb36089dae9349e3509269254708f4f55bda58b4';
+                        console.log(resetProviderUrl);
+                        window.location = resetProviderUrl;
+                    }
+                });
+            });
+        </script>
+    </body>
+
+<!-- Mirrored from www.monapay.com/v1/merchant/reviewtransaction/MLY5b0c1ec7192e3_5ddfed835253e---- by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Nov 2019 15:54:52 GMT -->
+</html>

@@ -1,0 +1,221 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 21, 2017, 3:32:56 AM
+    Author     : olayode
+*/
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center-block {
+    margin: 0 auto;
+}
+
+.block {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1px 5px;
+    padding: 0;
+}
+
+.inset-button {
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;
+}
+.input-field {
+    max-width: 250px;
+    margin: 10px auto;
+}
+
+.input-field input, .input-field select {
+    max-width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+.fund-wallet .fund-list-title {
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.card-title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: normal !important;
+    color: #006 !important;
+}
+
+.title-slogan {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.app-logo {
+    width: 60%;
+}
+
+.pin-label {
+    /*margin: 15px;*/
+    text-align: center;
+    position: static !important;
+}
+
+/** buttons **/
+.button {
+    display: block;
+    border-radius:0px;
+    padding: 14px 24px;
+    width: 222px;
+    margin: 0 auto 12px auto;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    border-color: transparent;
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+}
+
+.button a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.button:hover{
+    transform: translate3d(0, -2px, 0);
+    -webkit-transform: translate3d(0, -2px, 0);
+}
+
+.button.colored-button{
+    background: #9300FF;
+}
+
+.button.stroked-button{
+    background-color: transparent;
+    border-color:#9300FF;
+    color:#9300FF;
+    border: 1px solid;
+}
+
+.button.stroked-button a{
+    color:#9300FF;
+}
+
+.button.stroked-button.colored-button:active:focus {
+    background: #9300FF;
+}
+
+
+input[type=text]:focus:not([readonly]),input[type=password]:focus:not([readonly]),input[type=email]:focus:not([readonly]),input[type=url]:focus:not([readonly]),input[type=time]:focus:not([readonly]),input[type=date]:focus:not([readonly]),input[type=datetime-local]:focus:not([readonly]),input[type=tel]:focus:not([readonly]),input[type=number]:focus:not([readonly]),input[type=search]:focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #9300FF;
+    box-shadow: 0 1px 0 0 #9300FF
+}
+
+input[type=text]:focus:not([readonly])+label,input[type=password]:focus:not([readonly])+label,input[type=email]:focus:not([readonly])+label,input[type=url]:focus:not([readonly])+label,input[type=time]:focus:not([readonly])+label,input[type=date]:focus:not([readonly])+label,input[type=datetime-local]:focus:not([readonly])+label,input[type=tel]:focus:not([readonly])+label,input[type=number]:focus:not([readonly])+label,input[type=search]:focus:not([readonly])+label,textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #9300FF
+}
+
+.highlighted-text{
+  color: #9E3EFF;
+}
+
+.dropdown-content li>a,.dropdown-content li>span {
+    color: #9E3EFF;
+}
+
+.timer-progress {
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin: 0;
+    background-color:#ecd2ff;
+    
+}
+
+.timer-progress .determinate {
+    background-color:#9E3EFF;
+}
+
+.btn.recharge-btn {
+    display: block;
+    margin: 6px 2px;
+    color: #9E3EFF !important;
+    background-color: #f7eeff;
+    box-shadow: none;
+    border: thin solid #f7eeff;
+    text-align: left;
+}
+
+.btn.recharge-btn.recommended {
+    background-color: #9E3EFF !important;
+    color: #ffffff !important;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.purple-label {
+    color: #9E3EFF;
+}
+
+h3.purple-label.strong {
+    margin-top: 2px;
+}
+
+.purple-button {
+    background-color: #9300FF;
+    color: #ffffff;
+}
+
+.purple-border-button {
+    color: #9300FF;
+    border: thin solid #9300FF;
+    background-color: #ffffff;
+}
+
+.grey-border-button {
+    color: #9300FF;
+    border: thin solid #dddddd;
+    background-color: #dddddd;
+}
+
+.modal.confirmation .purple-border-button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.modal.confirmation .modal-content h4 {
+    color: #9E3EFF;
+}
+
+.alert.flash, .quick-message, .environment-bar {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    margin: 0;
+    background-color:#ecd2ff;
+    display: block;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .modal {
+        width:100% !important;
+    }
+}

@@ -1,0 +1,233 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 31, 2017, 3:35:27 PM
+    Author     : olayode
+*/
+.borderless {
+  border: none !important; }
+
+.main-color-text {
+  color: #1b3b9a; }
+
+.main-color-blue-text {
+  color: #20b6f9; }
+
+.main-color-so-light-text {
+  color: #20b6f9; }
+
+.main-color-pink-text {
+  color: #9e3dff; }
+
+.mona-checkbox-blue[type="checkbox"].filled-in:checked + label {
+  color: #1b3b9a; }
+  .mona-checkbox-blue[type="checkbox"].filled-in:checked + label:after {
+    border: 2px solid #1b3b9a;
+    background-color: #1b3b9a; }
+
+body {
+  background-color: #daf3ff;
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.strong {
+  font-weight: bold; }
+
+.brand-logo {
+  margin-top: 10px; }
+  .brand-logo img {
+    width: 80%;
+    max-width: 350px; }
+  .brand-logo.login-logo {
+    margin: 40px auto;
+    display: inline-block; }
+
+.wallet-board-page {
+  padding: 0; }
+  .wallet-board-page main {
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto; }
+  .wallet-board-page.login-page {
+    margin: 0; }
+    .wallet-board-page.login-page .login-header {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100px; }
+    .wallet-board-page.login-page main {
+      -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto; }
+    .wallet-board-page.login-page .card {
+      box-shadow: none; }
+      .wallet-board-page.login-page .card .col.input-field {
+        border: thin solid #20b6f9; }
+  .wallet-board-page .side-nav, .wallet-board-page .side-bar-left {
+    position: fixed;
+    color: #a6a8b1;
+    background-color: #222;
+    border: none; }
+    .wallet-board-page .side-nav li > a, .wallet-board-page .side-bar-left li > a {
+      color: #a6a8b1; }
+      .wallet-board-page .side-nav li > a > i.material-icons, .wallet-board-page .side-bar-left li > a > i.material-icons {
+        color: #a6a8b1; }
+  .wallet-board-page.logged-in {
+    margin-left: 300px; }
+  .wallet-board-page li.submenu-dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+    width: 170px; }
+  .wallet-board-page .navbar-fixed nav {
+    position: static;
+    border-bottom: thin solid #1b3b9a; }
+  .wallet-board-page .footer-copyright > div {
+    width: 100%;
+    padding: 0px 20px; }
+  .wallet-board-page .wallet-board-page.login-page.logged-in footer
+  .ewallet-form .col.input-field {
+    border-radius: 3px; }
+  .wallet-board-page .ewallet-form .col.input-field input,
+  .wallet-board-page .ewallet-form .col.input-field input:focus,
+  .wallet-board-page .ewallet-form .col.input-field input:hover,
+  .wallet-board-page .ewallet-form .col.input-field input:active,
+  .wallet-board-page .ewallet-form .col.input-field input:-webkit-autofill,
+  .wallet-board-page .ewallet-form .col.input-field input:-webkit-autofill:hover,
+  .wallet-board-page .ewallet-form .col.input-field input:-webkit-autofill:focus,
+  .wallet-board-page .ewallet-form .col.input-field input:-webkit-autofill:active {
+    margin: 5px 5px 5px 3em;
+    border: none;
+    box-shadow: none;
+    background-color: white !important;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #1b3b9a !important; }
+  .wallet-board-page .ewallet-form .col.input-field .material-icons {
+    top: 10px; }
+  .wallet-board-page .ewallet-form .col.input-field .material-icons {
+    color: #daf3ff; }
+    .wallet-board-page .ewallet-form .col.input-field .material-icons.active {
+      color: #20b6f9; }
+  .wallet-board-page .ewallet-form .col.input-field .select-wrapper > input {
+    margin-left: 0; }
+  .wallet-board-page textarea.materialize-textarea {
+    height: 2em;
+    min-height: 2em; }
+  .wallet-board-page .login-form {
+    margin-top: 5em; }
+  .wallet-board-page .login-card {
+    max-width: 440px;
+    margin: 30px auto; }
+  .wallet-board-page .card-panel {
+    margin: 0; }
+  .wallet-board-page .page-footer {
+    padding-top: 0px; }
+  .wallet-board-page #user_account_menu_dropdown {
+    top: 60px !important; }
+  .wallet-board-page .mini-summary-board .card .card-content {
+    text-align: center;
+    font-size: 15px;
+    padding: 8px; }
+  .wallet-board-page .mini-summary-board .card .card-panel {
+    padding: 10px; }
+
+.wallet-board-page pre {
+  display: block;
+  margin: 0 0 10px;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px; }
+
+.wallet-board-page code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px; }
+
+.wallet-board-page pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0; }
+
+.wallet-board-page pre {
+  font-size: 1rem;
+  padding: .66001rem 9.5px 9.5px;
+  line-height: 2rem;
+  background: -webkit-linear-gradient(top, #fff 0, #fff 0.75rem, #f5f7fa 0.75rem, #f5f7fa 2.75rem, #fff 2.75rem, #fff 4rem);
+  background: linear-gradient(to bottom, #fff 0, #fff 0.75rem, #f5f7fa 0.75rem, #f5f7fa 2.75rem, #fff 2.75rem, #fff 4rem);
+  background-size: 100% 4rem;
+  border: 1px solid #D3DAEA; }
+
+@media only screen and (min-width: 768px) {
+  .wallet-board-page .content-container.with-right-nav {
+    margin-right: 300px; } }
+.wallet-board-page code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px; }
+
+.wallet-board-page .hljs-number, .wallet-board-page .hljs-command, .wallet-board-page .hljs-string, .wallet-board-page .hljs-tag .hljs-value,
+.wallet-board-page .hljs-rules .hljs-value, .wallet-board-page .hljs-phpdoc, .wallet-board-page .hljs-dartdoc,
+.wallet-board-page .tex .hljs-formula, .wallet-board-page .hljs-regexp, .wallet-board-page .hljs-hexcolor, .wallet-board-page .hljs-link_url {
+  color: #2aa198; }
+
+.wallet-board-page .hljs-attribute, .wallet-board-page .hljs-variable, .wallet-board-page .lisp .hljs-body, .wallet-board-page .smalltalk
+.hljs-number, .wallet-board-page .hljs-constant, .wallet-board-page .hljs-class .hljs-title, .wallet-board-page .hljs-parent,
+.wallet-board-page .hljs-type, .wallet-board-page .hljs-link_reference {
+  color: #b58900; }
+
+div.switch.developer-regular .lever {
+  background-color: white;
+  border: thin solid #20b6f9; }
+  div.switch.developer-regular .lever:after {
+    background-color: white;
+    border: thin solid #20b6f9; }
+div.switch.developer-regular input[type=checkbox]:checked + .lever {
+  background-color: #1b3b9a;
+  border: thin solid white; }
+  div.switch.developer-regular input[type=checkbox]:checked + .lever:after {
+    background-color: #1b3b9a;
+    border: thin solid white; }
+
+.purple-label {
+  color: #9E3EFF; }
+
+h3.purple-label.strong {
+  margin-top: 2px; }
+
+.purple-button {
+  background-color: #9300FF;
+  color: #ffffff; }
+
+.purple-border-button {
+  color: #9300FF;
+  border: thin solid #9300FF;
+  background-color: #ffffff; }
+
+.inset-button {
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000; }
+
+.modal.confirmation .purple-border-button {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.modal.confirmation .modal-content h4 {
+  color: #9E3EFF; }
+
+/*# sourceMappingURL=dashboard.css.map */

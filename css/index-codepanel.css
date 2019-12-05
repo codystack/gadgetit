@@ -1,0 +1,193 @@
+
+    #complete-toolkit .common-UppercaseTitle span {
+        -ms-flex: 1;
+        -webkit-box-flex: 1;
+                flex: 1
+    }
+    #complete-toolkit .common-Link--arrow {
+        margin-bottom: 0
+    }
+}
+
+#complete-toolkit .common-BodyText {
+    padding-top: 35px
+}
+
+#complete-toolkit .common-Link {
+    display: block
+}
+
+@media (min-width:670px) {
+    #complete-toolkit .common-Link {
+        margin-top: 35px;
+        border-top: 2px solid #f1f7fb
+    }
+    #api-method-selection {
+    position: absolute;
+    width: 100%;
+    height: 34px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(50,50,93,.1);
+    -webkit-transition: -webkit-transform .3s cubic-bezier(.165,.84,.44,1);
+    transition: -webkit-transform .3s cubic-bezier(.165,.84,.44,1);
+    transition: transform .3s cubic-bezier(.165,.84,.44,1);
+    transition: transform .3s cubic-bezier(.165,.84,.44,1), -webkit-transform .3s cubic-bezier(.165,.84,.44,1);
+    will-change: transform;
+}
+}
+#programming-languages {
+    position: relative;
+    height: 66px;
+    margin-bottom: -66px
+}
+
+#programming-languages img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -12px 0 0 -12px;
+    will-change: transform, opacity
+}
+
+#editor {
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(50, 50, 93, .1)
+}
+
+#editor pre {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex
+}
+
+#editor pre>* {
+    padding: 12px;
+    font-size: 13px;
+    line-height: 1.5
+}
+
+#editor .custom-line-numbers {
+    text-align: right;
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    border-radius: 2px 0 0 2px
+}
+
+#editor code {
+    display: block;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch
+}
+
+@media (min-width:670px) {
+    #notebook {
+        position: relative;
+    }
+    #editor {
+            /* margin: 0 245px 0 0; */
+    width: 60%;
+    margin: 0 auto;
+    }
+}
+
+#notebook nav select {
+    width: 100%;
+    font-family: 'Roboto','Verdana','Helvetica', sans-serif !important;
+    font-size: 17px;
+    color: #9E3EFF;
+    border-radius: 2px;
+    padding: 7px 12px;
+    border: none;
+    outline: none;
+    background: #fff url(../img/select-arrows.svg) no-repeat 97% 50%;
+    background-size: 9px 14px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+#notebook nav>:not(select) {
+    display: none
+}
+
+@media (min-width:670px) {
+    #notebook nav select {
+        display: none
+    }
+    #notebook nav>:not(select) {
+        display: block
+    }
+    #notebook nav {
+        position: absolute;
+        right: 20px;
+        width: 210px
+    }
+    #notebook nav a,
+    #notebook nav button {
+        height: 34px;
+        -webkit-tap-highlight-color: transparent
+    }
+    #notebook nav button {
+        position: relative;
+        width: 100%;
+        padding-left: 32px;
+        font-family: 'Roboto','Verdana','Helvetica', sans-serif;
+        text-align: left;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: none;
+        -webkit-transition: color .3s;
+        transition: color .3s
+    }
+    #notebook nav button svg {
+        position: absolute;
+        width: 13px;
+        height: 14px;
+        top: 10px;
+        left: 10px;
+        pointer-events: none
+    }
+    #notebook nav button path {
+        -webkit-transition: fill .3s;
+        transition: fill .3s
+    }
+    #notebook nav .selected {
+        color: #ffffff;
+    }
+    #notebook nav .selected path {
+        fill: #ffffff
+    }
+    #notebook nav button:not(.selected):hover path {
+        fill: #7f32cc;
+    }
+    #notebook nav a {
+        display: block;
+        margin-top: 15px;
+        /*padding-top: 15px;
+        padding-left: 10px;*/
+    }
+    #api-method-selection {
+        position: absolute;
+        width: 100%;
+        height: 34px;
+        background: none;
+        border-radius: 0px;
+        box-shadow: 0 2px 4px rgba(50, 50, 93, .1);
+        -webkit-transition: -webkit-transform .3s cubic-bezier(.165, .84, .44, 1);
+        transition: -webkit-transform .3s cubic-bezier(.165, .84, .44, 1);
+        transition: transform .3s cubic-bezier(.165, .84, .44, 1);
+        transition: transform .3s cubic-bezier(.165, .84, .44, 1), -webkit-transform .3s cubic-bezier(.165, .84, .44, 1);
+        will-change: transform
+    }
+}
+
+
+#secondary .common-BodyText {
+    margin: 15px 0 18px
+}
