@@ -2,26 +2,28 @@
     <html lang="en">
 
     
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!-- Mirrored from www.monapay.com/support. by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Nov 2019 15:54:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
         <meta charset="utf-8">
-        <title>GadgetIT&trade; :: Nigerian First Gadget trader</title>
+        <title>MonaPay - Accept airtime payments in Nigerian</title>
         <!-- Search Engine -->
-        <meta name="description" content="GadgetIT allow you tarde or buy a fairly used gadget it at an affordable price with a warranty. Sign up now.">
+        <meta name="description" content="MonaPay enables you to monetize your products using airtime payments. Users are 10x more likely to use airtime to pay for digital goods. Sign up now.">
         <meta name="image" content="img/opengraph.png">
         <!-- Schema.org for Google -->
-        <meta itemprop="name" content="GadgetIT&trade; :: Nigerian First Gadget trader">
-        <meta itemprop="description" content="GadgetIT allow you tarde or buy a fairly used gadget it at an affordable price with a warranty. Sign up now.">
+        <meta itemprop="name" content="MonaPay - Instant Airtime Payment Solution for Nigerians">
+        <meta itemprop="description" content="MonaPay enables you to monetize your products using airtime payments. Users are 10x more likely to use airtime to pay for digital goods. Sign up now.">
         <meta itemprop="image" content="img/opengraph.png">
         <!-- Twitter -->
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="GadgetIT&trade; :: Nigerian First Gadget trader">
-        <meta name="twitter:description" content="GadgetIT allow you tarde or buy a fairly used gadget it at an affordable price with a warranty. Sign up now.">
+        <meta name="twitter:title" content="MonaPay - Instant Airtime Payment Solution for Nigerians">
+        <meta name="twitter:description" content="MonaPay enables you to monetize your products using airtime payments. Users are 10x more likely to use airtime to pay for digital goods. Sign up now.">
         <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-        <meta name="og:title" content="GadgetIT&trade; :: Nigerian First Gadget trader">
-        <meta name="og:description" content="GadgetIT allow you tarde or buy a fairly used gadget it at an affordable price with a warranty. Sign up now.">
+        <meta name="og:title" content="MonaPay - Instant Airtime Payment Solution for Nigerians">
+        <meta name="og:description" content="MonaPay enables you to monetize your products using airtime payments. Users are 10x more likely to use airtime to pay for digital goods. Sign up now.">
         <meta name="og:image" content="img/opengraph.png">
-        <meta name="og:url" content="index.php">
-        <meta name="og:site_name" content="GadgetIT Site">
+        <meta name="og:url" content="index.html">
+        <meta name="og:site_name" content="MonaPay Site">
         <meta name="og:type" content="website">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,12 +43,114 @@
 <link rel="stylesheet" href="css/prism_light.css">
 <script defer src="js/default-codepanel.js"></script>
 <script defer src="js/index-codepanel.js"></script>
-
-<!-- header start -->
-
-<?php include 'header.php';?>
-
-<!-- header end -->
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="img/Monapay_favicon.png">
+<link rel="icon" type="image/png" href="img/Monapay_favicon.png" sizes="32x32">
+<style type="text/css">
+    .hide-it {
+        display: none !important;
+    }
+</style>
+    </head>
+    <body class="scroll-assist" data-smooth-scroll-offset="77">
+        <a id="start"></a>
+        <div class="nav-container">
+        <div class="via-1491986892298" via="via-1491986892298" vio="monapay">
+            <div class="bar bar--sm visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-2">
+                            <a href="index.html"> <img class="logo logo-dark" alt="logo" src="img/Asset%201monapay%20logo.svg"> <img class="logo logo-light" alt="logo" src="img/Asset%201monapay%20logo.svg"> </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-5 text-right">
+                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="material-icons">menu</i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs" data-scroll-class="10vh:pos-fixed">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2 hidden-xs header1">
+                            <div class="bar__module">
+                                <a href="index.html"> <img class="logo logo-dark" alt="logo" src="img/Asset%201monapay%20logo.svg"> <img class="logo logo-light" alt="logo" src="img/Asset%201monapay%20logo.svg"> </a>
+                            </div>
+                        </div>
+                        <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm header2">
+                            <div class="bar__module">
+                                <ul class="menu-horizontal text-left">
+                                    <li> <a href="index.html#how-it-works" class="inner-link" target="_self">
+                                            How it Works
+                                        </a>
+                                    </li>
+                                    <li> <a href="index.html#features" class="inner-link" target="_self">
+                                            Features
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#developers" class="inner-link" target="_self">Developers</a>
+                                    </li>
+                                    <li>
+                                        <a href="marketplace/index.html" class="inner-link" target="_self">MarketPlace</a>
+                                    </li>
+                                    <li>
+                                        <a href="help-support.html" target="_blank">
+                                            FAQ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bar__module">
+                                <div class="modal-instance sgn-up">
+                                    <a class="btn btn--sm sign__up" href="dashboard/user/login.html"><span class="btn__text">Login / Create Account</span></a>
+                                    <!--div class="modal-container modal" data-modal-index="4">
+                                        <div class="modal-content">
+                                            <section class="unpad ">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-md-offset-3 col-sm-offset-3 col-xs-12">
+                                                            <div class="feature feature-1">
+                                                                <div class="feature__body boxed boxed--lg boxed--border text-center">
+                                                                    <div class="modal-close modal-close-cross"></div>
+                                                                    <div>
+                                                                        <div class="text-block">
+                                                                            <h3>Request for demo account</h3>
+                                                                            <p>
+                                                                                As a developer, you can request for demo account and testing parameters.
+                                                                            </p>
+                                                                        </div>
+                                                                        <form action="https://maliyo.com/sendy/subscribe" method="POST" accept-charset="utf-8" data-success="Thanks for subscribing.">
+    <div class="row">
+        <div class="col-sm-12">
+            <input class="validate-required" type="text" name="name" id="name" placeholder="Your name">
+        </div>
+        <div class="col-sm-12">
+            <input class="validate-required validate-email" type="email" name="email" id="email" placeholder="Email Address">
+        </div>
+        <div class="col-sm-12">
+            <input class="validate-required" type="text" name="PhoneNumber" id="PhoneNumber" s placeholder="Phone Number">
+        </div>
+        <input type="hidden" name="list" value="u8REWoyrlpmpcfqYVU7633MA" />
+        <div class="col-sm-12">
+            <button class="btn btn--primary" type="submit" id="submit"><span class="btn__text">Submit Request</span></button>
+        </div>
+    </div>
+</form>                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </section>
+                                        </div>
+                                    </div -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
         <div class="main">
 
                 <div class="main-content">
@@ -55,8 +159,8 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="mt--2">
-                                        <h1>Buy | Sell | Swap</h1>
-                                        <p class="lead">The beast place to buy, sell or swap a fairly used phone, tablet or laptop with warranty.</p>
+                                        <h1>Accept Airtime Payments</h1>
+                                        <p class="lead">We help digital merchants accept airtime payments from their customers.</p>
                                         <!-- demo button-->
                                         <div class="modal-instance">
                                             <a class="btn btn--purple  modal-trigger" href="#"> <span class="btn__text">Try Demo</span> </a>
@@ -168,7 +272,7 @@
                             </div>
                             <div class="small-circle-2"></div>
                         </div>-->
-                                    <img class="mona pos-bottom" alt="Image" src="https://i.imgur.com/W52gLNr.gif" width="90%"></div>
+                                    <img class="mona pos-bottom" alt="Image" src="img/Monapay-Hero.png" width="100%"></div>
                             </div>
                         </div>
                         <div class="pos-bottom pos-absolute col-xs-12">
@@ -625,5 +729,5 @@ header<span class="token punctuation">(</span>"Location: $paymentUrl"<span class
 </body>
 
 
-
+<!-- Mirrored from www.monapay.com/support. by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Nov 2019 15:54:45 GMT -->
 </html>
