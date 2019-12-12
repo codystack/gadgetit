@@ -4,22 +4,22 @@
     
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
         <meta charset="utf-8">
-        <title>GadgetIT&trade; :: Nigerian First Gadget trader</title>
+        <title>GadgetIT&trade; :: Nigerian First Gadget Trader</title>
         <!-- Search Engine -->
         <meta name="description" content="GadgetIT allow you tarde or buy a fairly used gadget it at an affordable price with a warranty. Sign up now.">
-        <meta name="image" content="img/opengraph.png">
+        <meta name="image" content="https://i.imgur.com/MDx4iGK.jpg">
         <!-- Schema.org for Google -->
-        <meta itemprop="name" content="GadgetIT&trade; :: Nigerian First Gadget trader">
+        <meta itemprop="name" content="GadgetIT&trade; :: Nigerian First Gadget Trader">
         <meta itemprop="description" content="GadgetIT allow you tarde or buy a fairly used gadget it at an affordable price with a warranty. Sign up now.">
-        <meta itemprop="image" content="img/opengraph.png">
+        <meta itemprop="image" content="https://i.imgur.com/MDx4iGK.jpg">
         <!-- Twitter -->
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="GadgetIT&trade; :: Nigerian First Gadget trader">
+        <meta name="twitter:title" content="GadgetIT&trade; :: Nigerian First Gadget Trader">
         <meta name="twitter:description" content="GadgetIT allow you tarde or buy a fairly used gadget it at an affordable price with a warranty. Sign up now.">
         <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-        <meta name="og:title" content="GadgetIT&trade; :: Nigerian First Gadget trader">
+        <meta name="og:title" content="GadgetIT&trade; :: Nigerian First Gadget Trader">
         <meta name="og:description" content="GadgetIT allow you tarde or buy a fairly used gadget it at an affordable price with a warranty. Sign up now.">
-        <meta name="og:image" content="img/opengraph.png">
+        <meta name="og:image" content="https://i.imgur.com/MDx4iGK.jpg">
         <meta name="og:url" content="index.php">
         <meta name="og:site_name" content="GadgetIT Site">
         <meta name="og:type" content="website">
@@ -268,7 +268,7 @@
                         <a id="dashboard" class="in-page-link" data-scroll-id="dashboard"></a>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-7"> <img alt="Image" src="img/Cross-Platform.png" style="width: 1000px; align-self: flex-end;"> </div>
+                                <div class="col-md-7"> <img alt="Image" src="https://i.imgur.com/Us6hODf.png" style="width: 1000px; align-self: flex-end;"> </div>
                                 <div class="col-sm-6 col-md-5">
                                     <div class="switchable__text dash">
                                         <h2 class="h3">Cross Platform</h2>
@@ -312,7 +312,7 @@
                     </section>
                     <a id="developers" class="in-page-link" data-scroll-id="developers"></a>
                     <section class="switchable feature-large bg--dark--blue">
-                        <h2 class="text-center white-text">Easy integration across all platforms.</h2>
+                        <h2 class="text-center white-text">What our clients say.</h2>
                         <p class="lead-x text-center white-text"> We created a Direct Carrier Billing payment API with a seamless integration process so you<br> can easily earn money from your ideas.
                             Please read our <a href="help-support.html" style="text-decoration: underline !important; color: white; font-weight: bold">FAQ</a> for further information.<br>
                             If you require additional support, feel free to <a class="c-us" href="mailto:support@monapay.com?Subject=API%20Integration%20Request">contact us</a></p>
@@ -428,92 +428,8 @@ header<span class="token punctuation">(</span>"Location: $paymentUrl"<span class
                 </div>
 
 
-                <div class="footer_spacer" style="float: right; right: 70px;"></div>
-<!-- section class="imagebg switchable text-center height-auto" data-overlay="5">
-    <div class="background-image-holder"><img alt="background" src="/img/get-started.jpg"></div>
-    <div class="container pos-vertical-center">
-        <div class="row">
-            <div class="col-sm-7 col-md-5">
-                <h2>Request a FREE Demo Account</h2>
-                <p class="lead"> Get inspired, create your products and let’s help you earn money conveniently wherever you are!</p>
-                <div class="row">
-                    <form action="https://maliyo.com/sendy/subscribe" method="POST" accept-charset="utf-8" data-success="Thanks for subscribing.">
-
-                        <div class="col-sm-12 footer-form">
-                            <input class="validate-required" type="text" name="name" id="name2" placeholder="Your name">
-                        </div>
-
-                        <div class="col-sm-12 footer-form">
-                            <input class="validate-required validate-email" type="email" name="email" id="email2" placeholder="Email Address">
-                        </div>
-
-                        <div class="col-sm-12 footer-form">
-                            <input class="validate-required" type="text" name="PhoneNumber" id="PhoneNumber2" s placeholder="Phone Number">
-                        </div>
-                        <input type="hidden" name="list" value="u8REWoyrlpmpcfqYVU7633MA" />
-                        <div class="col-sm-12">
-                            <button type="submit" class="btn btn--white--inverse btn--sm"><span class="btn__text">Create Free Account</span></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="text-center-xs space--xs mobile">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2 footer2">
-                    <a href="/">
-                        <div class="vnu"><img alt="Image" class="logo" src="/img/Monapay%20Logomark_Light.svg"></div>
-                    </a>
-                </div>
-                <div class="col-sm-5 footer1">
-                    <p class="f-1"> <a href="/about-us"><span class="h6">About</span></a>
-                        <a href="/terms-of-service"><span class="h6">Terms of Service</span></a>
-                        <a href="/api-doc"><span class="h6">Developer</span></a></p>
-                </div>
-                <div class="col-sm-5 footer3">
-                    <p class="f-2"><a href="/privacy-policy"><span class="h6">Privacy Policy</span></a>
-                        <a href="http://www.maliyo.com" target="_blank"><span class="h6">Marketplace</span></a>
-                        <a href="/help-support"><span class="h6">Help & Support</span></a> </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-</section -->
-<footer class="text-center-xs space--xs">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5 footer1">
-                <ul class="list-inline menu-horizontal">
-                    &nbsp; &nbsp;
-                    <li> <a href="about-us.html"><span class="h6">About</span></a> </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <!--<li> <a href="faq.html"><span class="h6">FAQ</span></a> </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-->
-                    <!--<li> <a href="#"><span class="h6">Feedback</span></a> </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-->
-                    <li> <a href="terms-of-service.html"><span class="h6">Terms of Service</span></a> </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <li><a href="api-doc.html"><span class="h6">Developer</span></a></li>
-                </ul>
-            </div>
-            <div class="col-sm-2 footer2">
-                <a href="index.html">
-                    <div class="vnu"><img alt="Image" class="logo" src="img/Monapay%20Logomark_Light.svg"></div>
-                </a>
-            </div>
-            <div class="col-sm-5 footer3">
-                <center>
-                    <ul class="list-inline menu-horizontal">
-                        &nbsp; &nbsp;
-                        <li><a href="privacy-policy.html"><span class="h6">Privacy Policy</span></a></li> &nbsp; &nbsp; &nbsp; &nbsp;
-                        <li><a href="help-support.html" target="_blank"><span class="h6">FAQ</span></a></li>&nbsp; &nbsp; &nbsp; &nbsp;
-                        <li> <a href="help-support.html"><span class="h6">Help & Support</span></a> </li>
-                    </ul>
-                </center>
-            </div>
-        </div>
-    </div>
-</footer>
-
-</div>
+<?php include'footer.php'; ?>
+ 
 
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/parallax.js"></script>
@@ -604,23 +520,6 @@ header<span class="token punctuation">(</span>"Location: $paymentUrl"<span class
 
 </script>
 
-<script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-99608137-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
 <script src="../embed.small.chat/T5BTHEBFDG5BBZ0DLG.js" async></script>
 </body>
 

@@ -51,7 +51,7 @@
                             </div>
                             <div class="bar__module">
                                 <div class="modal-instance sgn-up">
-                                    <a class="btn btn--sm sign__up" href="dashboard/user/login.html"><span class="btn__text">Login / Create Account</span></a>
+                                    <a class="btn btn--sm sign__up" href="dashboard/user/login"><span class="btn__text">Login / Register</span></a>
                                     <div class="modal-container modal" data-modal-index="4">
                                         <div class="modal-content">
                                             <section class="unpad ">
